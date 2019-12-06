@@ -1,6 +1,6 @@
 OBJECT[ID.CARS] = {
     IMG:6,
-    SOUND:1,
+    SOUND:0,
     NEW_1:[
     [1,1],//image
     [NO_SOUND],//sound

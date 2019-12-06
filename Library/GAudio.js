@@ -15,7 +15,7 @@ class GAudio {
                 this.soundCount++;
             }
         }
-        //log("GAudio.loadSoundFile() ≈ : " + this.soundCount);
+        log("GAudio.loadSoundFile() : " + this.soundCount);
         var count = 0;
         var soundMaxCount = this.soundCount;
         for(var i = 0; i<SOUND.length; i++){
@@ -28,7 +28,7 @@ class GAudio {
                     if(soundMaxCount == count)callback(GEngine.END_FILE,count);
                  }, false);
 
-                //log("SOUND[" + i + "][" + j + "] : " + SOUND[i][j].src);
+                log("SOUND[" + i + "][" + j + "] : " + SOUND[i][j].src);
             }
         } 
     }

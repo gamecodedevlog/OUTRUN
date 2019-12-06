@@ -3,15 +3,15 @@ OBJECT[ID.CAR_FX] = {
     SOUND:0,
     LEFT:[
     [0,1,2,3],//image
-    [0],//sound
+    [NO_SOUND],//sound
     [-1,-2,-3,-4],//x
     [-1,-2,-3,-4],//y
     ],
     CRASH:[
     [3,-3],//image
-    [0],//sound
+    [NO_SOUND],//sound
     [0,0],//x
-    [-3,-3],//y
+    [-3,-3],//y 
     ]
 };
 

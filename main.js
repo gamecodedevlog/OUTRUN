@@ -12,12 +12,12 @@ window.onload = function(){
     _engine= new GEngine(OBJECT[ID.BG].BG_WIDTH,OBJECT[ID.BG].BG_HEIGHT-50,false);
     _engine.loadImageFile(function (type,index) {
         if(GEngine.END_FILE == type){
-            _audio.loadSoundFile(function (type, index) {
+            //_audio.loadSoundFile(function (type, index) {
                 if(GEngine.END_FILE == type){
                     initGame(); 
                     initInput();
                 }
-            });
+            //});
         }
     });
 }
